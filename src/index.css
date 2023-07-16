@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #1E1E1E;
+    color: white;
+    overflow: hidden ;
+    
+}
+
+.firstS{
+    display: flex;
+    margin: 10em  8em;
+    padding: 10em 7em;
+    height: auto;
+    border: 1px solid #0B93E2;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+
+/* 2 ° sessão */
+.containe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    margin: 13em  10em;
+    padding: 13em 3em;
+    height: 35em;
+    border: 1px solid #0B93E2;
+    align-items: center;
+   
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0B93E2;
+    margin-top: 8em;
+    box-shadow: 1em 1em #0b93e24f ;
+    
+}
+.aboutme p{
+    color:#0b93e2ad ;
+    width: 20em;
+    font-size: 1.4em;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 4px solid  #0B93E2;
+    padding: 1em;
+}
+.btnhead{
+    margin-left: 4em;
+}
+.btnhead img {
+    margin-left: 1em;
+}
+.contatos{
+    margin-top: 0.8em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em 4em 2em;
+    align-items: right;
+    
+}
+.contatos a{
+    color: white;
+    margin-top: 1em;
+    text-decoration: none;
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+
+}
+.btns{
+    display: flex;
+    width: 8em;
+    height: 7em;
+    margin-top:2em;
+    margin-left: 10em;
+    justify-content: end;
+    
+   
+}
+/*Section 3*/
+.thidS{
+    margin: 10em  10em;
+    padding: 10em 8em;
+    height: 25em;
+    border: 1px solid #0B93E2;
+    text-align: center;
+    
+}
+.thidS h3{
+    margin: 0.8em ;
+}
+.btnrestart{
+    margin-top: 3em;
+}
